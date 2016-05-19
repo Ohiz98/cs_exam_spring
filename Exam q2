@@ -11,4 +11,17 @@ public interface Greetings{
 -----------------------------------------------------
 
 a)  Explain what an interface is.
+An interface is defined as a class in which we define only empty methods, the body of the method doesn't contain anything not even empty body. 
+When we implement other class from it we define the full body of that empty class in the interface class.
+
+
 b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
+
+public class EnglishSpeaker implements Greetings{
+
+  public String FormalHello(){
+    return "Bonjor, Monsieur et Mademoiselle";}
+    
+  public String CasualHello(){
+    return "Salut";}
+
