@@ -28,8 +28,7 @@ a)  Write a subclass to Technology with a class called Smartphone.
          
 b)  Explain what INHERITANCE is.
 
-An inheritance is a class in which we define only empty methods, and the body of the method doesn't contain anything. 
-When you implement another class from it we define the full body of that empty class in the interface class.
+
 
 c)  Write a "speak" method for Smartphone that states the "name" and "number".  
 
